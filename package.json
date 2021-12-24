@@ -1,0 +1,28 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "learning nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec npx babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasley-com/NodeJS.git"
+  },
+  "author": "reasley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reasley-com/NodeJS/issues"
+  },
+  "homepage": "https://github.com/reasley-com/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "nodemon": "^2.0.15"
+  }
+}
