@@ -1,0 +1,1 @@
+export const watach = (req, res) => res.send("watach");
